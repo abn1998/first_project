@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="discription" content=" html">
+
+    <title>Ecommerce Project</title>
+
+    <!---fontowasoe cdn-->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../abn/style.css">
+</head>
+<body>
+     <!---navbar starts here-->
+    <header>
+      <nav class="navbar">
+           <ul class="nav_upper flex-space-around">
+                <li class="nav_list">
+                    <a href="index.html" class="nav_link">Home</a>
+                </li>
+                <li class="nav_list">
+                    <a href="registar.html" class="nav_link">Registar</a>
+                </li>
+                <li class="nav_list">
+                    <a href="login.html" class="nav_link">Login</a>
+                </li>
+                <li class="nav_list">
+                    <a href="index.html" class="nav_link">Loguot</a>
+                </li>
+                <li class="nav_list">
+                    <a href="contact.html" class="nav_link">Contact</a>
+                </li>
+                <li class="nav_list">
+                    <a href="../abn/portfolio.html" class="nav_link"><img class="profile_icon" src="../abn/image/abnn.jpg" alt="Profile picture"></a>
+                </li>
+            </ul>
+            <ul class="nav_lower flex-space-around">
+                <li class="nav_list">
+                    <a href="index.html" class=" nav_brand nav_link">ABN Express</a>
+                </li>
+                <li class="nav_list">
+                    <a href="cart.html" class="nav_link">
+                        <span><i class="fa-solid fa-cart-shopping"></i>
+                        cart 2 products - $222.5
+                        </span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+   </header>
+<!---navbar ends here-->
+<main>
+    <setion class="catact_section">
+        <h2 class="section_title text_center">Contact Us</h2>
+        <div class="contact_container flex_center">
+            <form action="" class="form card">
+                <div class="form_control flex_center">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" required autocomplete="name">
+                </div>
+                <div class="form_control flex_center">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" required autocomplete="email">
+                </div>
+                <div class="form_control flex_center">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" required autocomplete="password">
+                </div>
+                <div class="form_control flex_center">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message"></textarea>
+                </div>
+                <div class="form_control flex_center form_btn_field">
+                    <button type="submit" class="btn contact_btn">Submit</button>
+                </div>
+            </form>
+            <div class="contact_address flex-space-around">
+                <address>
+                    <h4>Address:</h4>
+                    <p>House no:206,Berahason</p>
+                    <p>Road:Atrai,Shahagola Hihghway</p>
+                    <br>
+                    <span>Call:</span>
+                    <a href="tel:+8801609119202">+8801609119202</a>
+                </address>
+                <iframe class="contact_map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d373.8279665280344!2d88.98478199060455!3d24.67150984007971!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39fc6f2833f28031%3A0x37d0199d3729a995!2z4Kas4KeH4Kec4Ka-4Ka54Ka-4Ka44KaoIOCmnOCmvuCmruCnhyDgpq7gprjgppzgpr_gpqY!5e0!3m2!1sen!2sbd!4v1675875860846!5m2!1sen!2sbd"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </setion>
+</main>
+<!---footer starts here-->
+<footer class="footer flex-space-around">
+    <div class="flex-space-around">
+        <label for="subscribe">Subscribe to Newsletter: </label>
+        <input type="email" id="subscribe" name="subscribe" placeholder="Your Email Address" class="footer_input">
+        <button type="button" class="btn btn_subscribe">subscribe</button>
+    </div>
+    <div>
+        <p>&copy; Copyright 2023 ABN Express.All right reserved</p>
+    </div>
+</footer>
+<!---footer ends here-->
+</body>
+</html>
